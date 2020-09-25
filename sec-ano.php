@@ -6,7 +6,6 @@ function SeculoAno($ano) {
     } else {
         $sec = $ano_n/100 + 1;
     }
-    $text = 'Ano '.$ano.' = século '.strval((int)$sec);
-    echo $text;
+    return (int)$sec;
 }
 ?>
